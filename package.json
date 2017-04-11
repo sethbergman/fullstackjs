@@ -1,0 +1,47 @@
+{
+  "name": "VHX_MEAN",
+  "version": "0.0.1",
+  "description": "Node.js VHX video site",
+  "author": "Seth Bergman",
+  "readmeFilename": "README.md",
+  "engines": {
+    "node": "0.10.x"
+  },
+  "dependencies": {
+    "async": "^1.5.2",
+    "body-parser": "1.x",
+    "cookie-parser": "^1.4.1",
+    "dotenv": "0.x",
+    "express": "4.x",
+    "express-session": "1.x",
+    "fs-walk": "0.0.1",
+    "handlebars": "^3.0.3",
+    "path": "^0.12.7",
+    "randomstring": "^1.1.4",
+    "underscore": "^1.8.3",
+    "uuid": "^2.0.1",
+    "vhx": "1.5.1",
+    "bcrypt-nodejs": "latest",
+    "bcryptjs": "^2.3.0",
+    "body-parser": "1.6.0",
+    "connect-flash": "~0.1.1",
+    "cookie-parser": "~1.0.0",
+    "ejs": "~0.8.5",
+    "hogan.js": "^3.0.2",
+    "method-override": "~1.0.0",
+    "mongoose": "4.3.6",
+    "morgan": "~1.0.0",
+    "nunjucks": "^2.4.2",
+    "passport": "~0.1.17",
+    "passport-facebook": "~1.0.2",
+    "passport-github2": "^0.1.10",
+    "passport-google-oauth": "~0.1.5",
+    "passport-local": "~0.1.6",
+    "passport-twitter": "~1.0.2",
+    "q": "^1.4.1"
+  },
+  "scripts": {
+    "start": "node core/app.js"
+  },
+  "main": "core/app.js"
+}
