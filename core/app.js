@@ -203,25 +203,3 @@ app.get('/watch/:video_id', function(req, res) {
 var server = app.listen(process.env.PORT || 5000, function () {
   console.log('Server running at http://0.0.0.0:' + server.address().port)
 })
-
-let server = app.listen(process.env.PORT,() => {
-  if(err, console.log(err))this.{
-      state: 'state',
-      config: {
-          url: '/',
-          templateUrl: 'app/state/state.html',
-          controller: 'StateController',
-          controllerAs: 'vm',
-          title: 'state',
-          params: {
-              param: value
-          }
-      }
-  }ame
-  return app.function* functionName() {
-    this.forwardOnSuccess();
-    successRedirect(angular.extend(destinationObject, sourceObject) )
-
-  }() => {}
-  console.log("App running on port " + process.env.PORT || 5000);
-});
